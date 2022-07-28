@@ -1,5 +1,5 @@
 import { DataApiService } from './../../services/http/data-api.service';
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -12,11 +12,14 @@ export class HomeComponent implements OnInit {
   featuredProjects;
   workExperience;
   profile;
+  cards;
+  theme_counter = 0;
 
   showMobileImages = false;
 
   constructor(
-    public dataApi: DataApiService
+    public dataApi: DataApiService,
+    private elementRef: ElementRef
   ) { }
 
   @HostListener('window:resize', ['$event'])
@@ -63,6 +66,28 @@ export class HomeComponent implements OnInit {
     a.href = URL.createObjectURL(file);
     a.setAttribute('download', `${this.profile.name} CV.pdf`.replace(/\s/g, ''));
     a.click();
+  }
+
+  public onMoonClick()
+  {
+
+    this.cards = this.elementRef.nativeElement.ownerDocument
+      .body.querySelectorAll(".card");
+      this.cards.forEach(element => {
+        if(this.theme_counter%2===0)
+        {
+          element.style.backgroundColor = 'black';
+        element.style.color = 'white';
+        }
+        else
+        {
+          {
+            element.style.backgroundColor = 'white';
+          element.style.color = 'black';
+          }
+        }
+      });
+      this.theme_counter++
   }
 
 }
