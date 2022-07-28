@@ -1,16 +1,20 @@
 {
   "email": "octavioolenik@gmail.com",
-  "location": "Cordoba, Argentina",
+  "location": "Córdoba, Argentina",
   "name": "Octavio Olenik",
   "phone": "",
   "avatar": "https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/2c50cbcf26cfe3b6aef79f707b168075-1606777724634/b58025b3-829b-4acd-bbd1-41f393b0dc91.jpg",
   "education": [
     {
-      "title": "Bachelor of Science (BSc) in Computer Science and Information Systems",
-      "meta": "University of the Western Cape,  Jan 2014 – Nov 2018"
+      "title": "Social Sciences Bachellor's Degree",
+      "meta": "National University of Córdoba (UNC), ESCMB, Argentina, Graduated 2019"
+    },
+    {
+      "title": "Highschool degree",
+      "meta": "ESCMB 2019"
     }
   ],
-  "about": "I consider myself a value adder. I resolute to being a key asset of objective teams while seeking value from colleagues to add to my strengths. I love computer science and information technology.\n\nI have acquired experience building industry standard, production ready applications from working as a full time software developer and being a full time technology hobbyist.",
+  "about": "PLEASE CONTACT ME BEFORE PLACING AN ORDER. Hi, how are you doing? My name's Octavio and I'm from Córdoba, Argentina. I'm currently studying Spanish language at UNC, Córdoba. I'm a languages nerd, also known as a polyglot. I've been a private tutor during the last 6 years and now I want to teach languages online to people from all over the world I also offer translation services, focused on influencers and digital content creators. For more information, check out my gigs.",
   "socials": [
     {
       "name": "rnldhv91@gmail.com",
@@ -18,13 +22,13 @@
       "icon": "fa fa-envelope"
     },
     {
-      "name": "Github",
-      "link": "https://github.com/ronald-hove",
-      "icon": "fab fa-github"
+      "name": "Fiver",
+      "link": "https://www.fiverr.com/octavioolenik?source=inbox",
+      "icon": "fab fa-linkedin"
     },
     {
       "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/ronald-hove/",
+      "link": "https://www.linkedin.com/in/octavio-olenik-giaccaglia-990a3118b/",
       "icon": "fab fa-linkedin"
     }
   ]

@@ -28,6 +28,6 @@ export class DataApiService {
   }
 
   getBase64CV(): Promise<any> {
-    return this.http.get('assets/media/base64/CV.json').toPromise();
+    return this.http.get('https://orimi.com/pdf-test.pdf').toPromise();
   }
 }
