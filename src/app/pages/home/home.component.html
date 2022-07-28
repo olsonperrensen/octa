@@ -93,6 +93,7 @@
                     <div class="mb-2" *ngFor="let work of workExperience?.work">
                       <p><small>{{work?.date}}</small></p>
                       <h5>{{work?.title}}</h5>
+                      <img [src]="work.preview" style="width: 9rem;float: right;"  alt="">
                       <p style="white-space: pre-wrap;" class="card-text" [innerHTML]="work?.description"></p>
                       <a  class="mr-1 rh-skill" *ngFor="let skill of work?.stack" >{{skill}}</a>
                       <hr class="m-0 mt-3">
