@@ -1,10 +1,14 @@
 import { DataApiService } from './../../services/http/data-api.service';
 import { Component, OnInit, HostListener, ElementRef } from '@angular/core';
+import * as a from 'angular-animations'
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
+  animations: [
+    a.fadeInOnEnterAnimation()
+  ]
 })
 export class HomeComponent implements OnInit {
 
